@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariano Arias | Desarrolador Front-End</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-container container">
+      <div class="nav-bar">
+        <img src="assets/Logo.png" class="logo">
+        <div class="nav-texts">
+          <nav class="nav-items" id="nav">
+            <a href="#about-me" class="nav-item">Sobre Mi</a>
+            <a href="#projects" class="nav-item">Proyectos</a>
+            <a href="#contact" class="nav-item">Contacto</a>
+            <a href="#questions" class="nav-item">Preguntas Frecuentes</a>
+          </nav>
+          <img src="assets/menu.svg" class="menu-icon">
+          <img src="assets/close.svg" class="close-icon">
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-texts">
+          <h1 class="hero-name">Mariano Arias, Web Developer</h1>
+          <p class="hero-title">Creo tu web profesional</p>
+          <p class="hero-paragraph">Construyo y diseño tu sitio web limpio, moderno y responsivo. Optimizado para
+            trabajadores profesionales con vos.</p>
+          <div class="buttons">
+            <a href="#contact" class="hero-cta cta">Contactar</a>
+            <a href="#questions" class="questions-cta cta">Preguntas Frecuentes</a>
+          </div>
+
+        </div>
+        <div class="hero-image">
+          <img src="assets/ilustration.svg" class="hero-ilustration">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about-me" id="about-me">
+      <div class="about-me-container container">
+        <h2 class="section-title">Sobre Mi</h2>
+        <p class="section-paragraph">¡Hola mi nombre es Mariano!<br><br>Soy un estudiante de la carrera Ingenieria en informatica y Desarrolador Front-End Junior. <br><br>A la medida que pasaron los años me converti en un fanatico con todo lo relacionado a la computacion  y soy un cursioso de todas sus ramas, por esto mismo, nacio mi curiosidad y gusto por el desarrolo de paginas web. <br><br>Puedo crear tu pagina web profesional si contactas conmigo en el menor tiempo posible y al precio mas conveniente para tu profesion o negocio. <br><br>Puedes ver <a href="#projects">aqui</a> mis proyectos y tambien puedes <a href="#contact">contactar</a> conmigo para que hablemos de tu grandioso proyecto</p>
+      </div>
+    </section>
+    <section class="habilities" id="habilities">
+      <div class="habilities-container container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="bars-container">
+          <div class="bar-container">
+            <h3 class="bar-title">HTML</h3>
+            <div class="bar bar-html"></div>
+          </div>
+          <div class="bar-container">
+            <h3 class="bar-title">CSS</h3>
+            <div class="bar bar-css"></div>
+          </div>
+          <div class="bar-container">
+            <h3 class="bar-title">PHOTOSHOP</h3>
+            <div class="bar bar-photoshop"></div>
+          </div>
+          <div class="bar-container">
+            <h3 class="bar-title">JAVASCRIPT</h3>
+            <div class="bar bar-javascript"></div>
+          </div>
+          <div class="bar-container">
+            <h3 class="bar-title">UI Designer</h3>
+            <div class="bar bar-designer"></div>
+          </div>
+          <div class="bar-container">
+            <h3 class="bar-title">WORDPRESS</h3>
+            <div class="bar bar-wordpress"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="proyects-container container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-paragraph">Estos son mis últimos trabajos. Para ser transparente muestro aquí mi experiencia
+          creando webs para profesionales. Cualquiera de estas podría ser un modelo de diseño para tu próxima web</p>
+        <div class="projects-cards">
+          <a href="https://nutricionista-marianoariasweb.netlify.app" target="_blank">
+
+            <div class="project-card"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-container container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-paragraph">Solo rellenando el formulario te pondrás en contacto conmigo. ¡Te responderé lo
+          antes posible!</p>
+        <form action="https://formspree.io/f/mjvzdqka" method="POST" id="form">
+          <input type="text" class="input" placeholder="Nombre" id="name" name="name" maxlength="30" required>
+          <input type="email" id="email" name="email" placeholder="Email" maxlength="40" required>
+          <input type="text" class="input" placeholder="Asunto" id="reason" maxlength="20" name="reason">
+          <textarea id="" cols="30" rows="10" placeholder="¿Como puedo ayudarte?" maxlength="340" id="message"
+            name="message" required></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+    <section class="questions" id="questions">
+      <div class="questions-container container">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="question-card">
+          <div class="question-card-head">
+            <h3 class="question-title">¿Qué incluye el plan básico? </h3>
+            <p class="question-plus">+</p>
+          </div>
+          <div class="question-card-hide">
+            <p class="question-card-paragraph">
+            <ul>
+              <li>Sitio web funcional.</li>
+              <li>Diseño receptivo.</li>
+              <li>Carga de contenido.</li>
+              <li>Blog</li>
+              <li>Hasta 3 páginas.</li>
+              <li>3 revisiones.</li>
+              <li>Dominio personalizado</li>
+              <li>Hosting.</li>
+              <li>Certificación SSL.</li>
+              <li>Tiempo de entrega 2-4 días.</li>
+            </ul><br>
+            <p>No se incluye:</p>
+            <ul>
+              <li>Edición del contenido: de ser necesario se deberá abonar como mantenimiento del sitio web.</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="question-card">
+          <div class="question-card-head">
+            <h3 class="question-title">¿Cuál es el precio? </h3>
+            <p class="question-plus">+</p>
+          </div>
+          <div class="question-card-hide">
+            <p class="question-card-paragraph">El precio actual del desarrollo de tu web profesional con el plan básico
+              es de <b>AR $10000</b>. En caso de necesitar algo mas especifico o desarrollado el precio varía.</p>
+          </div>
+        </div>
+        <div class="question-card">
+          <div class="question-card-head">
+            <h3 class="question-title">¿Qué se necesita para empezar? </h3>
+            <p class="question-plus">+</p>
+          </div>
+          <div class="question-card-hide">
+            <p class="question-card-paragraph">Una vez contactes conmigo se requerirá todo el contenido de texto,
+              imágenes, video y lo necesario por adelantado como así también las indicaciones básicas para el diseño de
+              la web.</p>
+          </div>
+        </div>
+        <div class="question-card">
+          <div class="question-card-head">
+            <h3 class="question-title">¿Incluye revisiones? </h3>
+            <p class="question-plus">+</p>
+          </div>
+          <div class="question-card-hide">
+            <p class="question-card-paragraph">Se incluye en el plan básico hasta 3 revisiones</p>
+          </div>
+        </div>
+        <div class="question-card">
+          <div class="question-card-head">
+            <h3 class="question-title">¿Cúal es el metodo de pago?</h3>
+            <p class="question-plus">+</p>
+          </div>
+          <div class="question-card-hide">
+            <p class="question-card-paragraph">Se puede abonar el pago con tarjeta de credito, tarjeta de debito y pagos en efectivo con la plataforma de <b>Mercado Pagos</b>.</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="menu-items-footer">
+          <a href="#header" class="menu-item-footer">Inicio</a>
+          <a href="#about-me" class="menu-item-footer">Sobre mi</a>
+          <a href="#projects" class="menu-item-footer">Projectos</a>
+          <a href="#contact" class="menu-item-footer">Contacto</a>
+          <a href="#questions" class="menu-item-footer">Preguntas Frecuentes</a>
+        </div>
+        <p class="credits">Creada y diseñada por:<span>Mariano Arias.</span></p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
